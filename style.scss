@@ -1,0 +1,11 @@
+.myclass1 {
+  color: red;
+  font-size: 0.2em;
+}
+
+@mixin myclass {
+  font-size: 12px;
+}
+p{
+  @include myclass;
+}
