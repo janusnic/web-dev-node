@@ -2,7 +2,7 @@ const square = require('./square.js');
 if (require.main === module) {
     // Модуль вызван напрямую
     var mySquare = square(2);
-    console.log(`The area of my square is ${mySquare.area()}`);
+    console.log(`Module app said: The area of my square is ${mySquare.area()}`);
 
 } else {
     // require.main не ссылается на данный модуль, значит

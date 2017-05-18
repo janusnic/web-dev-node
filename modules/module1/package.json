@@ -1,2 +1,2 @@
 { "name" : "main-library",
-  "main" : "./main.js" }
+  "main" : "./index.js" }
